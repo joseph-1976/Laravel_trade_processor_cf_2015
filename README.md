@@ -61,7 +61,7 @@ I'm using a custom theme which uses SASS style. It's geared toward an ADMIN look
 
 The message frontend component can be accessed by going to the base project root (route is set in place to direct requests to frontend/index)
 All the actions required are stored inside the FrontendControllerCF file.
-I have used a graphical theme I had at my disposal (based on Bootstrap 3) to display the elements in a more user-friendly manner. Theme is called customGridGraph and you can find more details about it here http://themeforest.net/item/customGridGraph-responsive-admin-dashboard-template/4021469
+
 There are 2 parts for the frontend:
     - Message gridview - where the simple messages are retrieved from the database (through the Message Processor component) and displays a table with the entries and their attributes
     - Message analytics - where based on an existing currency pair from the database, it retrieves transaction volumes for the specified pair between MIN(`timePlaced`) and MAX(`timePlaced`) (through the Message Processor component as well) and uses javascript to display the graph for it;
